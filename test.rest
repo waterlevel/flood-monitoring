@@ -1,0 +1,8 @@
+POST https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-xaomc/endpoint/get
+Content-Type: application/json
+
+{
+    "db": "flood_monitoring",
+    "col": "updates",
+    "query": {}
+}
